@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html{
+	background-image: url(imagem/fundo4.png);
+	background-repeat: no-repeat;
+	background-size: 1400px 650px;
+}
+
+#menu{
+	margin:0;
+	padding: 0;
+	float;
+	position:absolute;
+	left:01%;
+	top:20%;
+}
+#menu legend{
+	text-shadow:2px 1px 3px #f0ffff;
+	margin-top: 20px;
+	font:bold 24px helvetica;
+	font-size: 40px;
+	padding-left: 55px;
+}
+
+#menu li{
+	list-style: none;
+	background-image: url(imagem/fundo2.jpg);
+	width: 220px;
+	border-bottom: 2px solid #666;
+	opacity: 1.3;
+
+}
+
+#menu li a{
+	display: block;
+	border-left: 5px solid #9c9c9c;
+	text-decoration: none;
+	box-shadow: 2px 2px 5px #fff;
+	color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 18px;
+	
+}
+
+#menu li a:hover{ /* borda lateral*/
+	border-left: 4px solid #363636 ;
+	background: #b5b5b5;
+	width: 222px;
+	opacity: 0.6;
+	-ms-transition:all 1.0s ease;
+	transition:all 1.0s ease;
+}
+
+#menu li ul{
+	display: none;
+}
+
+#menu li:hover ul{/**/
+	display: block;
+
+}
+
+#menu li:hover ul li {/*background do sub menu*/
+	background-image: url(imagem/fundo3.jpg);
+	padding-left: 10px;
+	}
+#menu li:hover ul li a {/**/
+	color: #ccc;
+}
+
+#menu ul li a:hover{/*efeito borda submenu*/
+	background: #4f4f4f;
+	border-left:  5px solid #828282;
+}
+
+/*.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+*/
+
+
+.tftable {/**/
+	position: absolute;
+	left:24%;
+ 	top:30%;
+	font-size:12px;
+	color:#333333;
+	width:850px;
+	border-width: 1px;
+	border-color: #729ea5;
+	border-collapse: collapse;
+	}
+
+
+.tftable th {/*fudno cabeçalho da tabela*/
+ font-family: helvetica;
+ font-size:14px;
+ font-style: bold;
+ color:#ffffff;
+ background-color:#4f4f4f;
+ border-width: 3px;
+ padding: 8px;
+ border-style: solid;
+ border-color:  #9c9c9c;
+ text-align:left;
+}
+
+
+.tftable tr {/*fundo da tabela*/
+	background-color:#ffffff;
+}
+
+
+.tftable td {/*css corpo da tabela*/
+	font-size:12px;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #729ea5;
+	}
+
+
+.tftable tr:hover {/*efeito tabela*/
+	background-color:#b5b5b5;
+}
+
+
+#fd1{ /* quadro do meio*/
+	background-image: url(imagem/divEsporte.jpg);
+	position:absolute;
+	width: 900px;
+	height: 400px;
+	left:20%;
+	top:23%;
+	border-style: none;
+
+
+}
