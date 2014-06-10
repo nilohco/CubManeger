@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="JsTecnico/jsTec.js"></script>
+	<link rel="stylesheet" href="cssRelatorios/styleTec.css" type="text/css"/>
+</head>
+<body>
+	<div id="divBusca">
+		<label for="selTipo">Buscar por:</label>
+		<select id="selTipo">
+			
+			<option checked value="Nome">Nome</option>
+			<option checked value="Peso">Peso</option>
+			<option checked value="Esporte">Esporte</option>
+			
+		</select>
+		<label for="txtBusca">Busca:<input type="text" id="txtBusca"/>	</label>
+		<input type="submit" value="Buscar" id="btnBuscar"/>
+	</div>
+
+	<table id="tblRelatorio">
+			<thead>
+				<tr>
+				<th>Nome</th>
+				<th>Peso</th>
+				<th>Esporte</th>
+				<th>telefone</th>
+
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+	</table>
+
+	<div id="divRodape">
+		<input type="button" id="btnImprimir" value="Imprimir"/>
+	</div>
+</body>
+</html>
