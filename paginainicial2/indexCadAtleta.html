@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="JsAtleta/funcoes.js"></script>
+	<link rel="stylesheet" href="cssAtleta/style.css" type="text/css"/>
+</head>
+<body>
+	<form id="frmCadastro">
+		<fieldset>	
+			<legend>Dados do Atleta</legend>
+			<ul>
+				
+				<li class="licss">
+					<label for="txtNome">Nome:</label>
+					<input type="text" id="txtNome" placeholder="MINIMO 3 CARACTER" pattern=".{3,}" required="required" />
+
+				</li>
+
+				<li class="licss">
+					<label for="txtSobrenome">Sobrenome:</label>
+					<input type="text" id="txtSobrenome" placeholder="EX SOBRENOME" required="required" />
+				</li>
+
+				<li class="licss">
+					<label for="txtIdade">Idade:</label>
+					<input type="text" id="txtIdade" placeholder="MAXIMO 2 NUMEROS"  required="required" maxlength = "2" pattern="[0-9]+[0-9]" />
+				</li>
+
+				<li class="licss">
+					<label for="txtAltura">Altura:</label>
+					<input type="text" id="txtAltura" placeholder="EX: 1,90"  required="required" pattern="\d{1}\,\d{2}"/>
+				</li>
+
+				<li class="licss">
+					<label for="txtPeso">Peso:</label>
+					<input type="text" id="txtPeso" placeholder="EX 90.8" required="required" pattern="\d{3}\,\d{1}" />
+				</li>
+
+				<li class="licss">
+					<label for="txtEsporte">Esporte:</label>
+					<input type="text" id="txtEsporte" placeholder="EX: PING PONG"  required="required" pattern=".{3,}"/>
+				</li>
+
+				<li class="licss">
+					<label for="txtTelefone">Telefone:</label>
+					<input type="text" id="txtTelefone" placeholder="EX: XXXX-XXXX" required="required" pattern="[0-9]{4}-[0-9]{4}" />
+				</li>
+				
+				
+					<input type="submit" value="Salvar" id="btnSalvar"/>
+				
+
+				
+					<input type="reset" value="Limpar" id="btnLimpar">
+					
+					
+
+
+			</ul>
+		</fieldset>	
+	</form>
+
+	<table id="tblListar">
+
+	</table>
+</body>
+</html>
