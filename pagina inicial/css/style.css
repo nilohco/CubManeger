@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+}
+
+html{
+	background-image: url(imagem/fundo4.png);
+	background-repeat: no-repeat;
+	background-size: 1400px 650px;
+}
+
+.tmp1 fieldset{
+	background-image: url(imagem/fundo4.jpg);
+	border: none;
+	width: 50px;
+	height: 300px;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom:50px;
+	padding-left: 12px;
+	padding-right: 15px;
+	position:absolute;
+	left:01%;
+	top:30%;
+}
+.tmp1 legend{
+	text-shadow:2px 1px 3px #f0ffff;
+	margin-top: 40px;
+	font:bold 24px Tahoma, Geneva, sans-serif;
+	font-size: 40px;
+	padding-left: 80px;
+}
+
+.tmp1 input[type="button"]:hover {
+background:-moz-linear-gradient(top, #a9a9a9 0px, #f0ffff 50%, #d3d3d3 40%, #a9a9a9);  
+
+}
+
+.tmp1 input{
+	width: 250px;
+	height: 40px;
+	display: block;
+	margin: 10px;
+	font:bold 18px Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	background:-moz-linear-gradient(top, #a9a9a9 0px, #f0ffff 50%, #d3d3d3 40%, #a9a9a9);  
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	box-shadow: 2px 2px 7px #f0ffff;
+	
+}
+
+.tmp1 input[type="button"]:hover {
+background:-moz-linear-gradient(top, #808080 0px, #f0ffff 50%, #d3d3d3 40%, #808080);  
+
+}
+
+
+#fd1{ /* quadro do meio*/
+	position:absolute;
+	width: 650px;
+	height: 400px;
+	left:28%;
+	top:25%;
+	
+	
+}        
+        
+
+	
