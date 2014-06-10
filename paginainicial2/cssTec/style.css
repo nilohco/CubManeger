@@ -1,0 +1,87 @@
+html{
+	background-image: url(imagem/fundo1.jpg);
+	background-repeat: no-repeat;
+	background-size: 880px 550px;
+}
+
+fieldset{
+	border-style: none;
+
+}
+
+legend{
+	color: #ffffff;
+font:bold 15px helvetica;
+}
+
+body{
+	font-family:Tahoma;
+}
+
+ul{
+	list-style:none;
+	color: #ffffff;
+font:bold 15px helvetica;
+	text-decoration: 
+}
+
+ul label{
+	width:100px;
+	float:left;
+}
+
+.licss{
+	padding-bottom: 3px;
+}
+
+#frmCadastro{
+	border:solid 1px;
+}
+
+#tblListar{
+	width:100%;
+	border:solid 1px;
+	text-align:left;
+   	border-collapse:collapse; 
+}
+
+#tblListar tbody tr{
+	border:solid 1px;
+	height:30px;
+	background: beige;
+}
+#tblListar tbody tr:hover{
+	background: #b5b5b5;
+}
+
+#tblListar thead{
+	background:beige;
+}
+#btnSalvar{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: -moz-linear-gradient(top, #a9a9a9 0px, #f0ffff 50%, #d3d3d3 40%, #a9a9a9);  
+	
+}
+#btnSalvar:hover{
+	background-color: #cfcfcf;
+
+}
+
+#btnLimpar{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	top: 32.8%;
+	left: 25.4%;
+
+}
+#btnLimpar:hover{
+	background-color: #cfcfcf;
+#btnSalvar:hover{
+	background:);
+}
